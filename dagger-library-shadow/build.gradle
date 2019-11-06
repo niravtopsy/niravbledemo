@@ -7,12 +7,14 @@ buildscript {
     }
 }
 
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.niravtopsy'
+
 apply plugin: 'java'
 apply plugin: 'com.github.johnrengelman.shadow'
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
+//apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
 
-//apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.niravtopsy'
+
 
 def buildSrcDir = '../gradle'
 apply from: "${buildSrcDir}/shadow.gradle"

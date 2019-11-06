@@ -30,14 +30,13 @@ allprojects {
         google()
         jcenter()
         maven { url 'https://jitpack.io' }
-
     }
 
     buildscript {
         repositories {
             google()
             jcenter()
-            maven { url 'https://jitpack.io' }
+
         }
     }
 

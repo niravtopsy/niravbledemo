@@ -40,7 +40,7 @@ dependencies {
     implementation rootProject.ext.libs.material_design
     implementation 'com.jakewharton:butterknife:10.2.0'
     kapt 'com.jakewharton:butterknife-compiler:10.2.0'
-    implementation project(path: ':rxandroidble')
+//    implementation project(path: ':rxandroidble')
     implementation rootProject.ext.libs.rxandroid
 
     //Shared preferences
@@ -48,7 +48,11 @@ dependencies {
     implementation 'com.jakewharton.rx2:replaying-share:2.1.1'
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-//    implementation 'com.github.niravtopsy:BLEDemo:1.1.0'
+
+    implementation 'com.github.niravtopsy.niravbledemo:dagger-compiler-shadow:1.2.1'
+    implementation 'com.github.niravtopsy.niravbledemo:dagger-library-shadow:1.2.1'
+    implementation 'com.github.niravtopsy.niravbledemo:rxandroidble:1.2.1'
+//    implementation 'com.github.niravtopsy:dagger-library-shadow:1.10.3-SNAPSHOT'
 }
 repositories {
     mavenCentral()
