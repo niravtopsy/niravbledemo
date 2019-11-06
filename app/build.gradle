@@ -49,10 +49,10 @@ dependencies {
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    implementation 'com.github.niravtopsy.niravbledemo:dagger-compiler-shadow:1.2.1'
-    implementation 'com.github.niravtopsy.niravbledemo:dagger-library-shadow:1.2.1'
-    implementation 'com.github.niravtopsy.niravbledemo:rxandroidble:1.2.1'
-//    implementation 'com.github.niravtopsy:dagger-library-shadow:1.10.3-SNAPSHOT'
+    annotationProcessor 'com.github.niravtopsy.niravbledemo:dagger-compiler-shadow:1.2.2'
+    annotationProcessor 'com.github.niravtopsy.niravbledemo:dagger-library-shadow:1.2.2'
+    implementation 'com.github.niravtopsy.niravbledemo:rxandroidble:1.2.2'
+
 }
 repositories {
     mavenCentral()
