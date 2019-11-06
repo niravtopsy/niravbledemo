@@ -1,0 +1,2 @@
+include ':app', ':dagger-compiler-shadow', ':dagger-library-shadow', ':rxandroidble'
+rootProject.name='BLeDemo'
