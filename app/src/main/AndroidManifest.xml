@@ -26,7 +26,7 @@
 
         <activity
             android:name=".devicedetails.ConnectionActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>
